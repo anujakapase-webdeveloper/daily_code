@@ -1,6 +1,6 @@
-#student
-# studentid name age marks gender mobno city
-'''studentid=101
+
+# HOW TO USE PRINT ()
+studentid=101
 name="sakshi"
 age=22
 marks=99.9
@@ -10,26 +10,28 @@ city="pune"
 print("student name is",name , " and age is",age )
 print("student marks is",marks,"student id is",studentid)
 
-#customer
-# customerid name mobno city emailid
-name="ram"
-customerid=202
-mobno=4367868492
-city="mumbai"
-emailid="ram@gmailcom"
-print("customer name is",name,"and city",city)'''
+# DATA TYPES
 
-#employee
-'''name = input("enter your name:")
+name="ram" # STRING
+customerid=202 # INTIGER
+mobno=4367868492 # LONG
+city="mumbai" # STRING
+emailid="ram@gmailcom" #STRING
+bill=450.00 # FLOAT
+extra=True # BOOLEAN
+print("customer name is",name,"and city",city)
+
+# HOW TO USE INPUT ()
+name = input("enter your name:")
 dept=input("enter your department:")
 salary=float(input("enter your salary:"))
 age=int(input("enter your age:"))
 email=input("enter your email id:")
 is_active=bool(input("is you are active:"))
 skills=input("enter your skills:")
-print("my name is",name ,"my dept is",dept, "my salary",salary,"my age is",age,"mmy email id is",email,"i am active or no",is_active,"myskills are",skills ,sep="," ,end=".")'''
+print("my name is",name ,"my dept is",dept, "my salary",salary,"my age is",age,"mmy email id is",email,"i am active or no",is_active,"myskills are",skills ,sep="," ,end=".")
 
-#student
+# INPUT ()
 name=input("enter student name:")
 gender=input("enter your gender:")
 marks=input("enter your marks:")
