@@ -1,7 +1,7 @@
 #operators
 #Arithmetic operators
 
-'''num1=int(input("enter a first number:"))
+num1=int(input("enter a first number:"))
 num2=int(input("enter a second number:"))
 
 #Addition
@@ -17,7 +17,7 @@ print("quentien of",num1,"//",num2,"=",num1//num2)
 #module
 print("module of",num1,"%",num2,"=",num1%num2)
 #exponentiation
-print("exponentaition of ",num1,"**",num2,"=",num1**num2)'''
+print("exponentaition of ",num1,"**",num2,"=",num1**num2)
 
 #exersize
 #Calculate the total price of 5 notebooks if one notebook costs 40.
@@ -44,4 +44,4 @@ length=int(input("enter the length of area:"))
 width=int(input("enter the width of area:"))
 print("area of rectangular is:",length*width)
 
-#Calculate the square and cube of a number.
+
