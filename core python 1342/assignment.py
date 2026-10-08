@@ -1,6 +1,6 @@
 #assignment operator
 # = equal to operator
-a=50
+'''a=50
 print(a)
 
 # += plus equal to operator
@@ -51,4 +51,30 @@ print(z)
 #>>= right shift equal to operator
 y=10
 y>>=3 #y=y>>3, y=10>>3, y=0
-print(y)
+print(y)'''
+
+
+
+#exercise
+x=50
+x+=30 #x=50+30,x=80
+print(x)
+x-=20 #x=80-20, x=60
+print(x)
+x*=4 #x=60*4 x=240
+print(x)
+x/=4 #x=240/4 x=60.0
+print(x)
+x%=6 #x=60%6 , x=0.0
+print(x)
+x//=8 #x=0//8,x=0
+print(x)
+x=16
+x&=4 #x=16&4, x=0
+print(x)
+x|=5 #x=0|5 ,x=5
+print(x)
+x<<=4 #x=5<<4,x=80
+print(x)
+x>>=2 #x=80>>2, x=20
+print(x)
