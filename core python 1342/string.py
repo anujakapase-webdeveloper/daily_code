@@ -73,3 +73,6 @@ print(len(s))
 print(s[10])
 print(s[-9])
 print(s[8])
+
+s = "Hello World"
+print(s[8:2:-2])
