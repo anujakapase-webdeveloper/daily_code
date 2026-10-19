@@ -1,4 +1,4 @@
-#string methods
+'''#string methods
 
 #capitalize
 name="anuja"
@@ -57,5 +57,10 @@ print(name.startswith("jay"))#It check staring value of a string
 name="jay"
 city="pune"
 print("my name is ",name,"my city is",city)
-print(f"my name is {name} ,my city is {city}")
+print(f"my name is {name} ,my city is {city}")'''
 
+text="Welcom To Python Class"
+print(text.casefold())
+
+text=["python","is","programming language"]
+print(" ".join(text))

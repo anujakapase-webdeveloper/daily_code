@@ -128,3 +128,8 @@ print(s.count("abc", 1, 8))
 s = "  kiran academy python  "
 print(s.strip()[::-1].upper()) 
 print(s.strip().split()[1][::-1])
+
+name="python"
+print(name.center(7,"-"))
+print(name.index("p"))
+print(name.find("x"))
