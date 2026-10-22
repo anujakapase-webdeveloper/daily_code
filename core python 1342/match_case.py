@@ -68,6 +68,67 @@ match color.replace("Red","yellow"):
  case _:
   print("invalid output")   
    
+ #week days
+day="sunday"
+match day:
+ case "monday"|"tuesady"|"wednesday"|"thursday"|"friday":
+  print("weekdays")
+ case "saturday"|"sunday":
+  print("weekend days")
+
+#roles
+role="guets"
+match role:
+ case "admin":
+  print("full system access")
+ case "editer":
+  print("can edit content")
+ case _:
+  print("access restrictes ,please login first")
+
+#cordinates
+point = (0, 0)
+match point:
+  case (0, 0):
+    print("Center point")
+  case (x, y):
+    print(f"X: {x}, Y: {y}")  
+    
+#operators
+operator="+"
+match operator:
+ case "+":
+  print("Addition")
+ case "*":
+  print("multiplication")
+ case"/" :
+  print("division") 
+ case"-":
+  print("substraction") 
+ case"%":
+  print("modul")
+ case"//":
+  print("floor division")
+
+#check data type
+data=100
+match data:
+ case int():
+  print ("numeric value")
+ case str():
+  print("text value") 
+
+#Arithmentic operation
+x=4
+y=2
+z=x+y
+match z:
+ case 2:
+  print(f"sum of {x} and {y} is 6") 
+ case _:
+  print(f"sum of {z}")
  
+ 
+
  
   
