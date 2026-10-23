@@ -145,3 +145,20 @@ for x in num:
 nums = [10, 20, 30, 40, 50]
 for i in range(len(nums) - 1, -1, -1):
   print(nums[i])
+
+#find vowels
+text = "Python Programming"
+vowels = "aeiouAEIOU"
+count = 0
+for char in text:
+  if char in vowels:
+    count += 1
+print("Total Vowels:", count)  
+
+#print *
+for i in range(1,6):
+ print("*"*i)
+
+for i in range(4,0,-1):
+ print("*"*i) 
+
