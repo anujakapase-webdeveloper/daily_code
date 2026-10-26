@@ -136,3 +136,26 @@ num=5
 while i>=1:
    print(num*i)
    i-=1
+
+#print prime number
+num = int(input("enter a prime number: "))
+i = 2
+while i < num and num % i != 0:
+    i += 1
+if num > 1 and i == num:
+    print(f"{num} is a prime number")
+else:
+    print(f"{num} is not a prime number")
+
+ #find prime numbers in a list
+numbers = [10, 3, 5, 8, 11, 4, 13, 1, 17]
+prime_numbers = []
+for num in numbers:
+    if num > 1:
+        i = 2
+        while i < num and num % i != 0:
+            i += 1
+        if i == num:
+            prime_numbers.append(num)
+print("Original List:", numbers)
+print("Prime Numbers:", prime_numbers)   
