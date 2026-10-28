@@ -20,7 +20,7 @@ print(s[2] + s[-3])
 
 '''s = "Python" 
 s[0] = "J" 
-print(s)'''
+print(s)'''#it cannot be changed because it ia immutable
 
 s = "kiranacademy"
 print(s[0:5]) 
