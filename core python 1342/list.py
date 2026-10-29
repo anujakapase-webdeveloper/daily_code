@@ -94,3 +94,27 @@ print(sum(list))
 #print length of a list
 print(len(list))
 
+x=[3,4]
+x.append([2,3])
+print(len(x))
+
+x=[4,6,5,23,4]
+x.pop()
+print(x)
+x.clear()
+print(x)
+
+print([1, 2] * 2) 
+
+print([1, 2] + [3,4])
+
+a = [1, 2];
+b = a
+b[0] = 9; 
+print(a) 
+
+a = [1, 2]; 
+b =a.copy(); 
+b[0] = 9; 
+print(a)
+
