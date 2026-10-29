@@ -28,6 +28,10 @@ tuple=(34,65,78,23,67,53,6)
 tuple=sum(tuple)
 print(tuple)
 
+tuple=(34,65,78,23,67,53,6)
+tuple=len(tuple)
+print(tuple)
+
 #we can convert tuple into list
 tuple=(34,65,78,23,67,53,6)
 list=list(tuple)
@@ -60,6 +64,19 @@ print(tuple)
 tuple=(34,65,78,23,67,53,6,65)
 tuple=tuple.count(65)
 print(tuple)
+
+#addition of two tuples
+t1=(2,3,5,4,65,55,87,66)
+t2=(34,6,2,6,1,3)
+t3=(t1+t1)
+print(t3)
+
+#check specific values is present in a tuple using in 
+t1=(5 in(2,3,5,4,65,55,87,66))
+print(t1)
+
+
+
 
 
 
