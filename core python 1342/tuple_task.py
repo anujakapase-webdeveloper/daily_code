@@ -91,6 +91,7 @@ print(tup[0])
 
 #17. Remove duplicate values while preserving order.
 
+
 #19. Sort a tuple in ascending order and convert the result back into a tuple.
 tup=(23,4,23,65,54,87)
 lis2=list(tup)
