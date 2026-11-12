@@ -71,3 +71,5 @@ print(d)
 
 d = {'name': 'Rahul', 'age': 21}
 print(d['name'], d['age'])
+
+print(type(2/4))

@@ -10,3 +10,5 @@ city="pune"
 marks=99
 print(id(name))
 print(id(city))
+
+print(type(2/4))

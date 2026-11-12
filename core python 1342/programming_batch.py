@@ -46,13 +46,13 @@ for i in range(1,11):
 
  #list   
 
-#odd numbers
+#even numbers
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 for num in numbers:
     if num % 2 == 0:
         print(num)
 
-#even numbers
+#odd numbers
 for num in numbers:
     if num % 2 != 0:
         print(num)
