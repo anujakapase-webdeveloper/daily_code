@@ -65,7 +65,10 @@ def outer():
     def inner():
         print("name:",name)
     inner()
-outer()    
+outer()
+
+
+
     
     
     
