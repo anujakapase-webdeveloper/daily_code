@@ -194,73 +194,117 @@ t1=hospital()
 t1.details("Annapurna hospital","Dr.vikas patil",100,"sankeshwar")
 t1.display()   
 
-#table
-n=5
-for i in range(1,11):
-     print(n*i)
+#shooping cart management
+class shooping():
+     def set_details(self,customer_name,product_name,price,quantity):
+          self.customer_name=customer_name
+          self.product_name=product_name
+          self.price=price
+          self.quantity=quantity
 
-#fact
-n=6
-fact=1
-for i in range(1,n+1):
-     fact=fact*i
-     print(fact) 
+     def claculate_total(self):
+          self.total=self.price*self.quantity
+     
+     def discount(self, discount):
+          self.discount = discount
+          self.discount = (self.total * self.discount) / 100
+          self.total_bill = self.total - self.discount
 
-#prime
-n=4
-count=0
-for i in range(1,n+1):
-     if n%i==0:
-          count+=1
-if count==2:
-     print("prime")
-else:
-     print("not a prime")
+     def display(self):
+          print("customer  name-->",self.customer_name)
+          print("product name-->",self.product_name)
+          print("price-->",self.price)
+          print("quantity-->",self.quantity)
+          print("total-->",self.total)
+          print("tota bill with discount-->",self.total_bill)
+s1=shooping()
 
-#even 
-n=2
-if n%2==0:
-     print("even")  
+s1.set_details("anuja","mobile",50000,1)
+s1.claculate_total()
+s1.discount(5)
+s1.display() 
 
-#odd
-n=5
-if n%2!=0:
-     print("odd")
+#library book management
+class book():
+     def details(self,book_name,author_name,price,is_available):
+          self.book_name=book_name
+          self.author_name=author_name
+          self.price=price
+          self.is_available=is_available
 
-#reverse
-n=12345
-rev=0
-for i in range(len(str(n))):
-     digit=n%10
-     rev=rev*10+digit
-     n=n//10
-print("reverse:",rev)   
+     def display(self):
+          print("book_nema-->",self.book_name)
+          print("author_name-->",self.author_name)
+          print("price-->",self.price)
+          print("is_available-->",self.is_available)    
 
-#sum
-n=1234
-total=0
-for i in range(len(str(n))):
-     digit=n%10
-     total=total+digit
-     n=n//10
-print("total",total)   
 
-#count
-n=12345
-count=0
-for i in str(n):
-     count+=1
-print(count)   
+#constructor
+class classname():
+     def _init_(self):
+          print("hello")
+obj=classname()    
 
-#fibonacci
-a = 0
-b = 1
+#non-parameterized constructor
+class student:
+     def __init__(self):
+          self.name="anuja" 
+          self.age=23 
+          self.marks=99 
 
-for i in range(10):
-    print(a)
-    a, b = b, a + b
+     def display(self):
+          print("name-->",self.name) 
+          print("age-->",self.age)
+          print("marks-->",self.marks)
+s1=student()
+s1.display()   
+
+class student:
+    def __init__(self):
+        self.name = "Aniket"
+        self.age = 20
+        self.course = "Python"
+
+    def display(self):
+        print("Name-->", self.name)
+        print("Age-->", self.age)
+        print("Course-->", self.course)
+
+s1 = student()
+s1.display()
+
+#parameterized constructor
+class student:
+     def __init__(self,name,age,course,marks):
+          self.N=name
+          self.a=age
+          self.course=course
+          self.marks=marks
+
+     def display(self):
+          print(self.N)
+          print(self.a)
+          print(self.course)
+          print(self.marks)
+
+s1=student("anuja",22,"python",99)
+s1.display()          
+
+#
+class student:
+     def __init__(self,name,age,course,marks):
+          self.N=name
+          self.a=age
+          self.course=course
+          self.marks=marks
+          print("name-->",self.N)
+          print("age-->",self.a)
+          print("course-->",self.course)
+          print("marks-->",self.marks)
+
+s1=student("anuja",20,98,"python")          
+
           
-
 
 
 
