@@ -50,3 +50,21 @@ h1=hospital("ram",50)
 h2=hospital("shyam",30)
 h1.display()  
 h2.display()
+
+class book:
+    name="tsg"
+    def __init__(self,title):
+        self.title=title
+        
+b=book("python") 
+book.name="dhjd" 
+print(b.name)
+
+class counter:
+    count=0
+c1=counter()
+c2=counter()
+c1.count=10
+print(counter.count,c1.count,c2.count)
+
+        
