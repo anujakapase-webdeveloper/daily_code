@@ -51,7 +51,7 @@ c.leadership()
 c.cooking()
 c.study()
 
-#heirarcical
+#heirarchical inhetitance
 class father():
     def riding(self):
         print("riding a bike")
@@ -68,7 +68,7 @@ c.driving()
 c1.riding()
 c1.sport()  
 
-#hybrid
+#hybrid inheritance
 class GF():
     def form(self):
         print("GF's form")
@@ -136,7 +136,7 @@ c.size()
 t.shape()
 t.size()
 
-#inheritance with cinstructor
+#inheritance with cunstructor
 class father:
    def __init__(self):
       print("parent  class")
