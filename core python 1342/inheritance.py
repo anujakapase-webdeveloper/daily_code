@@ -135,6 +135,41 @@ c.shape()
 c.size()
 t.shape()
 t.size()
+
+#inheritance with cinstructor
+class father:
+   def __init__(self):
+      print("parent  class")
+class child(father):
+   def __init__(self):
+       super().__init__()
+       print("child class")
+c=child()
+
+#inheritance with parameter
+class father:
+   def __init__(self,name):
+      self.name=name
+      print("name",name)
+class child(father):
+   def __init__(self, name,age):
+      super().__init__(name)
+      self.age=age
+      print("name-->",name,"age-->",age)
+c=child("ram",22)        
+      
+ #inheritance without parameter
+class father:
+   def __init__(self):
+      self.name="shyam"
+class child(father):
+   def __init__(self):
+      super().__init__()  
+      self.age=22
+      print("name-->",self.name,"age-->",self.age)  
+c=child()        
+
+
                
 
 
