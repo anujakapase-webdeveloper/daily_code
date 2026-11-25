@@ -10,3 +10,5 @@ total_sum=0
 for num in range(2,51,2):
   total_sum+=num
 print("the sum of even numbers",total_sum)  
+
+

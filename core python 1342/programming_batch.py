@@ -14,21 +14,33 @@ elif num<0:
 
 #revers number
 num=12345
-for i in (str(num)[::-1]):
- print(i)    
+rev=0
+for i in range(len(str(num))):
+   digit=num%10
+   rev=rev*10+digit
+   num=num//10
+print(rev)      
 
+num=12345
+rev=0
+for i in range(len(str(n))):
+     digit=n%10
+     rev=rev*10+digit
+     n=n//10
+print(rev)                             
 
  
 
 
-'''num=4
-if num%num==0:
-    print("prime number" )
+num=4
+count=0
+for i in range(1,num+1):
+    if num%2==0:
+     count+=1
+if count==2:
+    print("prime")
 else:
-    print("not prime number")
-
-for i in range(1,101,1):
-    print(i)'''
+    print("not a prime")
 
 n=5
 fact=1
